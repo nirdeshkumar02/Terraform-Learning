@@ -71,3 +71,17 @@ This is a basic terraform project where we look how providers are integrated and
     1. export TF_VAR_avail_zone="us-east-1a"
     2. Now, You can ref it to configuration file as - var.avai_zone
 
+Project - 2 => AWS Infra Provisioning
+=======================================
+#### TASK WORKFLOW 
+- Provision an EC2 Instance on AWS
+    - Create Custom VPC
+    - Create Custom Subnet 
+    - Create Internet Gateway & Route Table
+    - Attach IGW & Route Table with custom VPC
+    - Create EC2 Instance in custom VPC.
+- Deploy Nginx Docker Container on EC2 Instance
+- Create Security Group (Firewall) to allow traffic.
+
+![Project-2-Task-Workflow](https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2.png)
+
