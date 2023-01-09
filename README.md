@@ -43,8 +43,8 @@ Terraform Providers
 - It is responsible for understanding API of that platform.
 - Providers are a logical abstraction of an upstream API. They are responsible for understanding API interactions and exposing resources.
 
-1 - Simple Project 
-===================
+Project_1 - Beginner Friendly 
+==============================
 This is a basic terraform project where we look how providers are integrated and After Initialization of providers How can we define resources.
 - In the Provider Block, We need to define the Provider Credentials where you wanna create those resources.
 - For the best practice, The credential must be taken from the environment variable.
