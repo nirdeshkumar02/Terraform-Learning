@@ -63,3 +63,11 @@ This is a basic terraform project where we look how providers are integrated and
     2. Number
     3. Bool
     4. List(string)/List(Objects)/Map
+- Adding Provider Creds to project - 
+    1. Add provider creds to environment variable - terminal specific
+    2. By adding aws creds to the .aws/credential 
+    3. By Defining AWS Profile as creds if multiple aws creds using 
+- Adding custom env variable related to terraform -
+    1. export TF_VAR_avail_zone="us-east-1a"
+    2. Now, You can ref it to configuration file as - var.avai_zone
+
