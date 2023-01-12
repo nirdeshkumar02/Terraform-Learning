@@ -85,6 +85,6 @@ Project_2 - AWS Infra Provisioning
 
 ![Project-2-Task-Workflow](https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2.png)
 
-#### Project Refrence - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2" target="_blank">Click Here</a>)
-#### Project With Provisioner - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/feature/provisioner/project-2" target="_blank">Click Here</a>)
-#### Project with Modules - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/feature/modules/tf-project" target="_blank">Click Here</a>)
+#### Project-2 Refrence - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2" target="_blank">Click Here</a>)
+#### Project2-With-Provisioner - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2-with-provisioner" target="_blank">Click Here</a>)
+#### Project-2-with-Modules - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2-with-modules" target="_blank">Click Here</a>)
