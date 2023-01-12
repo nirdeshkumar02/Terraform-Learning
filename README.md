@@ -71,7 +71,7 @@ This is a basic terraform project where we look how providers are integrated and
     1. export TF_VAR_avail_zone="us-east-1a"
     2. Now, You can ref it to configuration file as - var.avai_zone
 
-Project_2 - AWS Infra Provisioning
+Project_2 - AWS Server Provisioning
 =======================================
 #### TASK WORKFLOW 
 - Provision an EC2 Instance on AWS
@@ -90,3 +90,28 @@ Project_2 - AWS Infra Provisioning
 1. Project-2 Refrence - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2" target="_blank">Click Here</a>)
 2. Project2-With-Provisioner - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2-with-provisioner" target="_blank">Click Here</a>)
 3. Project-2-with-Modules - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-2-with-modules" target="_blank">Click Here</a>)
+
+Project_3 - AWS EKS Cluster Provisioning
+=========================================
+#### TASK WORKFLOW 
+- Create EKS IAM Role
+- Create VPC for Worker Nodes
+- Create EKS cluster (Master Nodes)
+- Connect Kubectl with EKS Cluster
+- Create EC2 IAM Role for Node Group
+- Create Node Group and attach to EKS Cluster
+- Configure AutoScaling
+- Deploy application to EKS
+
+#### Here we directly taking refrence of already created modules by aws with the configuration required to EKS.
+
+#### Project-3 Refrence - (<a href="https://github.com/nirdeshkumar02/Terraform-Learning/blob/master/project-3" target="_blank">Click Here</a>)
+```
+- Inside the folder after changing the tfvars value, run commands -
+    terraform init
+    terraform plan
+    terraform apply
+
+- After creation of cluster, apply nginx configuration to check the deployement -
+    kubectl apply -f nginx-config.yaml
+```
